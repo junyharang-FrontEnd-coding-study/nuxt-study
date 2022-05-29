@@ -1,13 +1,21 @@
 <template>
   <div>
-      <h1>상세 페이지</h1>
 
-      <div>
-          <img :src="product.imageUrl" :alt="product.name">
-          <p>상품 이름 : {{ product.name }}</p>
-          <p>상품 가격 : {{ product.price }} $</p>
+          <div class="container">
+              
+              <div class="container">
+                  <img class="product-image" :src="product.imageUrl" :alt="product.name"/>
+              </div>
+
+              <dir class="side-panel">
+                <p class="name">{{ product.name }}</p>
+
+                <p class="price">{{ product.price }}$</p>
+
+                <!-- <button type="button" @click="addToCart">Add to Cart</button> -->
+              </dir>
+          </div>
       </div>
-  </div>
 </template>
 
 <script>
@@ -26,6 +34,26 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}/* .container 끝  */
+
+.product-image {
+    width: 500px;
+    height: 375px;
+} /* .product-image 끝 */
+
+.side-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 220px;
+    text-align: center;
+    padding: 0 1rem;
+} /* .side-panel 끝 */
 
 </style>

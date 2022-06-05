@@ -1,3 +1,26 @@
+### 🗂 목차
+● **[\[Vue+Nuxt.js\] Nuxt.js 기본](https://junyharang.tistory.com/290)**<br>
+● **[\[Vue+Nuxt.js\] Nuxt.js 시작하기](https://junyharang.tistory.com/291)**<br>
+● **[\[Vue+Nuxt.js\] Nuxt.js Data 호출 방식과 API 연동](https://junyharang.tistory.com/294)**<br>  
+● **[\[Vue+Nuxt.js\] Nuxt.js를 이용하여 쇼핑 상품 목록 페이지와 상세 페이지 개발](https://junyharang.tistory.com/295)**<br>
+● **[\[Vue+Nuxt.js\] Nuxt.js를 이용하여 쇼핑 상품 검색 UI 개발](https://junyharang.tistory.com/297)**<br>
+● **[\[Vue+Nuxt.js\] Vuex를 이용하여 장바구니 Page 만들기](https://junyharang.tistory.com/298)**<br>
+● **[\[Vue+Nuxt.js\] Vuex 새로고침 시 초기화 되는 문제 해결](https://junyharang.tistory.com/301)**<br>
+<br><br><br>
+
+### 🗂 부록
+● **[\[FrontEnd\] HMR\(Hot Module Replacement\)](https://junyharang.tistory.com/292)**<br>
+● **[\[Nuxt.js\] 비동기 데이터 호출 방법](https://junyharang.tistory.com/293)**<br>
+● **[V-Model 동작 원리와 활용 방법](https://junyharang.tistory.com/296)**<br>
+● **[\[Nuxt.js\] NuxtServerInit](https://junyharang.tistory.com/300)**<br>
+<br><br><br>
+
+### 🗂 내가 만난 Error
+● **[\[vuex\] expects string as the type, but found undefined.](https://junyharang.tistory.com/299)**<br>
+<br><br><br>
+
+
+
 # nuxt-study
 
 ## Build Setup

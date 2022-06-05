@@ -10,4 +10,12 @@ function fetchProductById(id) {
 
 } // fetchProductById() 끝
 
-export { fetchProductById }
+function fetchProductsBykeyword(keyword) {
+    return instance.get(`/products`, {
+        params: {
+            name_like : keyword,
+        },
+    })
+} // fetchProductsBykeyword() 끝
+
+export { fetchProductById, fetchProductsBykeyword }

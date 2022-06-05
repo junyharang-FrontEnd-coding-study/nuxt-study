@@ -9,8 +9,13 @@
                 <span>{{ product.price }} $</span>
               </li>
             </ul>
+
+      <div class="cart-wrapper">
+        <button class="btn" @click="moveToCartPage">장바구니 바로가기</button>
+      </div>  <!-- <div class="cart-wrapper"> 끝 -->
+
       </main>
-    </div>
+    </div>  <!-- <div class="app"> 끝 -->
 
 </template>
 
@@ -67,7 +72,11 @@ export default {
             imageUrl: `${item.imageUrl}?random=${Math.random()}`,
           })); // this.products 끝
         }, // searchProducts() 끝
-    },
+
+      moveToCartPage() {
+        this.$router.push('/cart')
+      }, // moveToCartPage() 끝
+    }, // methods 끝
 }
 </script>
 
@@ -92,7 +101,7 @@ export default {
   position: relative;
 }
 .cart-wrapper {
-  position: sticky;
+  position: sticky; /* 스크롤 위치가 바뀌어도 화면에서 사라지지 않게 해줌. */
   float: right;
   bottom: 50px;
   right: 50px;

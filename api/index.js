@@ -18,4 +18,18 @@ function fetchProductsBykeyword(keyword) {
     })
 } // fetchProductsBykeyword() 끝
 
-export { fetchProductById, fetchProductsBykeyword }
+// carts
+function fetchCartItems() {
+  return instance.get('/carts')
+} // fetchCartItems() 끝
+
+function createCartItem(cartItem) {
+  return instance.post('/carts', cartItem)
+} // createCartItem()
+
+export {
+  fetchProductById,
+  fetchProductsBykeyword,
+  fetchCartItems,
+  createCartItem
+}
